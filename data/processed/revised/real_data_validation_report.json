@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "code_cells_executed": 39,
+  "raw_events": 28557,
+  "regions": 722,
+  "region_years": 36822,
+  "evaluation_rows": 7220,
+  "evaluation_positives": 763,
+  "supplied_files_unchanged": true,
+  "backup_unchanged": true,
+  "project_data_downloaded": false,
+  "example_premiums_at_70_percent_target": {
+    "San Francisco": {
+      "Logistic": 335739,
+      "CART": 1254206
+    },
+    "Tokyo": {
+      "Logistic": 3661338,
+      "CART": 4062159
+    },
+    "Istanbul": {
+      "Logistic": 1088824,
+      "CART": 1254206
+    },
+    "Santiago": {
+      "Logistic": 9606858,
+      "CART": 10011055
+    },
+    "Kathmandu": {
+      "Logistic": 1580732,
+      "CART": 2322461
+    }
+  },
+  "checks": [
+    "schema and execution",
+    "cleaning traceability",
+    "supplied/rebuilt feature consistency",
+    "AUC/Brier/F1 independently recomputed",
+    "calibration sample counts",
+    "rolling origin chronology and first-origin agreement",
+    "historical feature boundary mutation",
+    "baseline future outcome mutation",
+    "training-only scaling",
+    "insurance formula and experience adjustments",
+    "outside-scope quote"
+  ]
+}

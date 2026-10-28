@@ -1,0 +1,14 @@
+{
+  "raw_file": "data/raw/usgs_earthquakes_1965_2025_m5.5.csv",
+  "raw_sha256": "c92044368d257cdcca17cdfe0629f0de08d88362bb07edb83174e688dc43d38d",
+  "python": "3.13.9",
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.6",
+    "statsmodels": "0.14.5",
+    "scikit-learn": "1.7.2",
+    "requests": "2.32.5"
+  },
+  "note": "User-supplied snapshot; original acquisition date must be documented separately."
+}

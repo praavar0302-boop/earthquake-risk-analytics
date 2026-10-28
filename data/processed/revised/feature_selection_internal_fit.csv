@@ -1,0 +1,7 @@
+model,variant,log_likelihood,k,aic,bic,features
+logit,full,-5206.555247858015,10,10433.11049571603,10512.788256140215,"log_events_prev10, log_strong_prev10, max_mag_prev10, log_events_prev1, years_since_strong, share_shallow_prev10, abs_lat, log_events_rate_longterm, log_strong_rate_longterm"
+logit,AIC-selected,-5206.652349655472,8,10429.304699310944,10493.046907650292,"log_events_prev10, log_strong_prev10, years_since_strong, share_shallow_prev10, abs_lat, log_events_rate_longterm, log_strong_rate_longterm"
+logit,BIC-selected,-5211.388065000504,6,10434.776130001008,10482.58278625552,"log_events_prev10, log_strong_prev10, years_since_strong, share_shallow_prev10, log_strong_rate_longterm"
+cloglog,full,-5231.446894448867,10,10482.893788897734,10562.57154932192,"log_events_prev10, log_strong_prev10, max_mag_prev10, log_events_prev1, years_since_strong, share_shallow_prev10, abs_lat, log_events_rate_longterm, log_strong_rate_longterm"
+cloglog,AIC-selected,-5232.085831793267,7,10478.171663586534,10533.946095883464,"log_events_prev10, log_strong_prev10, years_since_strong, share_shallow_prev10, abs_lat, log_events_rate_longterm"
+cloglog,BIC-selected,-5241.9510004895865,4,10491.902000979173,10523.773105148846,"log_events_prev10, years_since_strong, log_events_rate_longterm"

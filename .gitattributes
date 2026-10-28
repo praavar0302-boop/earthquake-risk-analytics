@@ -1,0 +1,11 @@
+# Normalize un-fingerprinted code/documentation consistently.
+* text=auto eol=lf
+
+# Preserve verified artifact bytes, including the original CRLF raw catalogue.
+# Git must not convert line endings and invalidate the recorded SHA-256 values.
+data/** -text
+figures/** -text
+app_assets/** -text
+earthquake_risk_analysis.ipynb -text
+
+*.png binary

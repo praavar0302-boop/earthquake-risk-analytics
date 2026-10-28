@@ -1,0 +1,81 @@
+# Python, test and notebook caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# OS and editor state
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Local environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Secrets and local agent/service configuration
+.env
+.env.*
+.streamlit/secrets.toml
+.secrets/
+secrets/
+credentials/
+credentials*.json
+service-account*.json
+service_account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+.pypirc
+.netrc
+.git-credentials
+id_rsa*
+id_ed25519*
+.aws/
+.ssh/
+.codex/
+.agents/
+.openai/
+
+# Temporary files, logs and recovery copies
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+*.old
+*.orig
+*_backup.*
+*_backup_*
+*_v0.ipynb
+*-backup.*
+/executed-review.ipynb
+backup/
+backups/
+archive/
+tmp/
+temp/
+
+# Superseded derived files remain local; revised results are published.
+/data/processed/*.csv
+/figures/*.png
+
+# Local planning document contains superseded results; not a research deliverable.
+/Project_ Earthquake Risk Prediction & Insurance Pricing.docx

@@ -1,0 +1,17 @@
+risk_class,leaf,fit_region_years,fit_frequency,rule
+C1,4,16398,0.01225759238931577,events_rate_longterm <= 0.09
+C2,5,5101,0.032738678690452855,0.09 < events_rate_longterm <= 0.18
+C3,7,1670,0.045508982035928146,0.18 < events_rate_longterm <= 0.39 and strong_rate_longterm <= 0.04
+C4,8,3736,0.08779443254817987,0.18 < events_rate_longterm <= 0.39 and strong_rate_longterm > 0.04
+C5,12,1136,0.10475352112676056,0.39 < events_rate_longterm <= 0.78 and years_since_strong > 8.50
+C6,11,2768,0.16257225433526012,0.39 < events_rate_longterm <= 0.78 and years_since_strong <= 8.50
+C7,15,1291,0.2114639814097599,0.78 < events_rate_longterm <= 1.20 and share_shallow_prev10 > 0.17
+C8,20,524,0.28435114503816794,events_rate_longterm > 1.20 and strong_rate_longterm <= 0.64 and abs_lat > 35.00
+C9,14,271,0.34317343173431736,0.78 < events_rate_longterm <= 1.20 and share_shallow_prev10 <= 0.17
+C10,19,1280,0.3734375,events_rate_longterm > 1.20 and strong_rate_longterm <= 0.64 and abs_lat <= 35.00
+C11,22,636,0.4119496855345912,events_rate_longterm > 1.20 and 0.64 < strong_rate_longterm <= 0.91 and n_strong_prev10 <= 9.50
+C12,26,144,0.5,events_rate_longterm > 1.20 and strong_rate_longterm > 0.91 and n_events_prev10 <= 28.50
+C13,23,285,0.5333333333333333,events_rate_longterm > 1.20 and 0.64 < strong_rate_longterm <= 0.91 and n_strong_prev10 > 9.50
+C14,27,1163,0.7007738607050731,events_rate_longterm > 1.20 and strong_rate_longterm > 0.91 and 28.50 < n_events_prev10 <= 86.50
+C15,29,103,0.8252427184466019,events_rate_longterm > 1.20 and strong_rate_longterm > 0.91 and 86.50 < n_events_prev10 <= 97.50
+C16,30,316,0.9240506329113924,events_rate_longterm > 1.20 and strong_rate_longterm > 0.91 and n_events_prev10 > 97.50

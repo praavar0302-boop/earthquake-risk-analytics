@@ -1,0 +1,10 @@
+# Notebook execution, one-time exports and local verification (not app startup).
+-r requirements.txt
+-r requirements-export.txt
+requests>=2.32,<3
+nbformat>=5.10,<6
+nbclient>=0.10,<0.11
+nbconvert>=7.16,<8
+ipykernel>=6.29,<7
+pytest>=8,<9
+pathspec>=0.12,<0.13

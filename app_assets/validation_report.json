@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-27",
+  "automated_tests": 9,
+  "result": "9 passed",
+  "stages_rendered": 10,
+  "browser_checks": [
+    "desktop overview",
+    "sequential navigation",
+    "sidebar navigation",
+    "forecast heatmap",
+    "calibration tab and chart",
+    "pricing payout recalculation",
+    "390px mobile layout"
+  ],
+  "runtime_model_fitting": false,
+  "golden_quotes_verified": 10,
+  "verified_source_files": 38,
+  "legacy_original_files_unchanged": 33,
+  "notebooks_and_existing_analytical_outputs_unchanged": true,
+  "source_notebook": "earthquake_risk_analysis.ipynb",
+  "command": "python -m pytest -q tests/test_streamlit_app.py"
+}

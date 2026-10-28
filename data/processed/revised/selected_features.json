@@ -1,0 +1,19 @@
+{
+  "logit": [
+    "log_events_prev10",
+    "log_strong_prev10",
+    "years_since_strong",
+    "share_shallow_prev10",
+    "abs_lat",
+    "log_events_rate_longterm",
+    "log_strong_rate_longterm"
+  ],
+  "cloglog": [
+    "log_events_prev10",
+    "log_strong_prev10",
+    "years_since_strong",
+    "share_shallow_prev10",
+    "abs_lat",
+    "log_events_rate_longterm"
+  ]
+}

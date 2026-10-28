@@ -1,0 +1,60 @@
+[
+  {
+    "origin": 2016,
+    "feature_selection_end": 2005,
+    "validation_end": 2015,
+    "evaluation_end": 2020,
+    "selected_features": {
+      "Logistic": [
+        "log_events_prev10",
+        "log_strong_prev10",
+        "years_since_strong",
+        "share_shallow_prev10",
+        "abs_lat",
+        "log_events_rate_longterm",
+        "log_strong_rate_longterm"
+      ],
+      "Cloglog": [
+        "log_events_prev10",
+        "log_strong_prev10",
+        "years_since_strong",
+        "share_shallow_prev10",
+        "abs_lat",
+        "log_events_rate_longterm"
+      ]
+    },
+    "cart_params": {
+      "max_depth": 4,
+      "min_samples_leaf": 100
+    }
+  },
+  {
+    "origin": 2021,
+    "feature_selection_end": 2010,
+    "validation_end": 2020,
+    "evaluation_end": 2025,
+    "selected_features": {
+      "Logistic": [
+        "log_events_prev10",
+        "log_strong_prev10",
+        "years_since_strong",
+        "share_shallow_prev10",
+        "abs_lat",
+        "log_events_rate_longterm",
+        "log_strong_rate_longterm"
+      ],
+      "Cloglog": [
+        "log_events_prev10",
+        "log_strong_prev10",
+        "years_since_strong",
+        "share_shallow_prev10",
+        "abs_lat",
+        "log_events_rate_longterm"
+      ]
+    },
+    "cart_params": {
+      "max_depth": 5,
+      "min_samples_leaf": 200
+    }
+  }
+]

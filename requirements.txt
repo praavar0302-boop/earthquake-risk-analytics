@@ -1,0 +1,3 @@
+# Minimal app runtime, discoverable by standard Python/Streamlit hosts.
+-c constraints-tested.txt
+-r requirements-streamlit.txt
