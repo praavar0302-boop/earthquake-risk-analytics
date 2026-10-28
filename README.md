@@ -153,24 +153,6 @@ On Windows PowerShell, use .venv\Scripts\Activate.ps1 instead of the source comm
 
 See Streamlit Documentation for further instructions.
 
-Project Structure
-
-earthquake-risk-analytics/
-├── GroupProject_v1.0.ipynb       # Research notebook
-├── streamlit_app.py             # Interactive walkthrough
-├── app_support.py               # Streamlit utilities
-├── app_assets/                  # App visualizations and data
-├── data/
-│   ├── raw/                     # Source earthquake data
-│   ├── external/                # Plate-boundary data
-│   └── processed/revised/       # Processed results
-├── figures/revised/             # Analysis figures
-├── scripts/                     # Export and validation tools
-├── tests/                       # Application tests
-├── requirements.txt             # App dependencies
-├── requirements-analysis.txt    # Notebook dependencies
-└── README.md
-
 Reproducibility
 
 The research notebook contains the complete analytical workflow, including data preparation, feature engineering, model evaluation, calibration and insurance calculations.
