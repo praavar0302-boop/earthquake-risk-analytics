@@ -156,7 +156,7 @@ See Streamlit Documentation for further instructions.
 Project Structure
 
 earthquake-risk-analytics/
-├── earthquake_risk_analysis.ipynb       # Research notebook
+├── GroupProject_v1.0.ipynb       # Research notebook
 ├── streamlit_app.py             # Interactive walkthrough
 ├── app_support.py               # Streamlit utilities
 ├── app_assets/                  # App visualizations and data
